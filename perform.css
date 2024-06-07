@@ -1,0 +1,198 @@
+#perform h5{
+    font-size: 3rem;
+    text-align: center;
+    margin: 3rem;
+    border-bottom: 0.5rem solid #d9d9d9;
+    width: 43rem;
+    border-radius: 2rem;
+    /* box-shadow: inset 0rem 0rem 0.2rem 0rem gray; */
+    text-shadow: 0rem 0.1rem 0.3rem gray;
+    color: gray;
+}
+.home-exercises{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.home-exercise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+    height: 100%;
+    box-shadow: 0rem 0rem 0.3rem 0rem gray;
+    border-radius: 1rem;
+    padding: 3rem;
+    gap: 3rem;
+}
+.fhide{
+    margin-top: 0.2rem;
+    filter: hue-rotate(45deg);
+    margin-left: -0.2rem;
+}
+
+.home-exercise-img img{
+    height: 17rem;
+    width: 20rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0rem gray;
+}
+
+.home-exercise-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise1-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise1-img img{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0rem gray;
+}
+.home-exercise3-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise3-img img{
+    height: 17rem;
+    width: 16rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.9rem 0rem gray;
+}
+.home-exercise2-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise2-img img{
+    width: 22rem;
+    height: 15rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0rem gray;
+}
+.home-exercise01-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise01-img img{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0rem gray;
+}
+.home-exercise-content h4{
+    color: #33d9d9bd;
+    text-shadow: 0rem 0.05rem 0.1rem black;
+    font-size: 1.3rem;
+}
+.home-exercise02-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise02-img img{
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0rem gray;
+    width: 14rem;
+}
+.home-exercise03-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.home-exercise03-img img{
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0rem gray;
+    width: 23rem;
+}
+.about-img p{
+    width: 33rem;
+    text-align: center;
+    text-shadow: 0rem 0.2rem 0.2rem #6e6e6e;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+@media (max-width:430px) and (min-width:230px) {
+    #perform h5 {
+        font-size: 7rem;
+        width: 97rem;
+    }    
+    .home-exercise{
+        flex-direction: column;
+    }
+    .home-exercise-img img{
+        height: 60rem;
+        width: 81rem;
+        border-radius: 3rem;
+        box-shadow: 0rem 0rem 1rem 0.2rem gray;
+    }
+    .home-exercise1-img img{
+        height: 60rem;
+        width: 81rem;
+        border-radius: 3rem;
+        box-shadow: 0rem 0rem 1rem 0.2rem gray;
+    }
+    .home-exercise2-img img{
+        height: 60rem;
+        width: 81rem;
+        border-radius: 3rem;
+        box-shadow: 0rem 0rem 1rem 0.2rem gray;
+    }
+    .home-exercise3-img img{
+        height: 60rem;
+        width: 81rem;
+        border-radius: 3rem;
+        box-shadow: 0rem 0rem 1rem 0.2rem gray;
+    }
+    .home-exercise01-img img{
+        height: 60rem;
+        width: 81rem;
+        border-radius: 3rem;
+        box-shadow: 0rem 0rem 1rem 0.2rem gray;
+    }
+    .home-exercise02-img img{
+        height: 60rem;
+        width: 81rem;
+        border-radius: 3rem;
+        box-shadow: 0rem 0rem 1rem 0.2rem gray;
+    }
+    .home-exercise03-img img{
+        height: 60rem;
+        width: 81rem;
+        border-radius: 3rem;
+        box-shadow: 0rem 0rem 1rem 0.2rem gray;
+    }
+    .h2 h2{
+        font-size: 5rem;
+        text-shadow: 0rem 0.1rem 0.1rem red;
+        opacity: 0.7;
+    }
+    .about-img p {
+        width: 84rem;
+        font-size: 4rem;
+    }
+    .home-exercise-content h4{
+        font-size: 3.7rem;
+    }    
+    .home-exercise-content h3{
+        font-size: 4rem;
+        opacity: 0.8;
+        text-shadow: 0rem 0.1rem 0.1rem gray;
+    }
+    
+}
